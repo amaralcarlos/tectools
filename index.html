@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferramentas Tecimob</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+
+    <div class="header" id="header">
+        <button onclick="toggleSidebar()" class="btn-icon-header" style="background-color: transparent; color: black;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+          </svg>
+        </button>
+       <div class="logo_header" >
+          <a href="Home.html">
+            <img src="Image/Imobizer.png" class="img_logo_header" alt="Logo">
+          </a>
+       </div>
+      
+       <div class="navigation_header" id="navigation_header">
+         <button onclick="toggleSidebar()" class="btn-icon-header" style="background-color: transparent; color: red;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+         </button>
+         <a href="Home.html" class="active">Home</a>
+         <a href="agendar-treinamentos.html" class="active">Treinamentos</a>
+         <a href="Central-de-ajuda.html" class="active">Ajuda</a>
+         <a href="Links-parcelamentos.html" class="active">Pagamentos</a>
+         <a href="power-bi.html" class="active">Power BI</a>
+         <a href="login-tecimob.html" class="active">Painel Cliente</a>
+         <a href="Site-Tecimob.html" class="active">Site Tecimob</a>
+       </div>
+      </div>
+
+      <div tabindex="0" class="content" id="content">
+        
+        <div class="topo">
+            <nav>
+                <ul>
+                   <a href="https://whats-central.tecimob.com.br/" target="_blank"><img id="icones" src="Image/whatsapp.png" alt="Whatsapp"></a>
+                   <h1>Whatsapp</h1>
+                </ul>
+                <ul>
+                    <a href="https://tecimob3.pipedrive.com/pipeline/1/user/12937783" target="_blank"><img id="icones" src="./Image/pipedrive.png" alt="Whatsapp"></a>
+                    <h1>Pipe Drive</h1>
+                 </ul>
+
+                <ul>
+                    <a href="https://central.tecimob.com.br/imobiliaria" target="_blank"><img id="icones" src="./Image/central.png" alt="Central"></a>
+                    <h1>Central</h1>
+                </ul>
+                <ul>
+                    
+                    <li>
+                        <button style="background-color: transparent;" id="main-btn" type="button" style="cursor: pointer;"><a><img id="icones" src="./Image/creci.png" alt="Creci"></a></button>
+                        <h1>Creci</h1>
+                    </li>
+                 </ul>
+            </nav>
+
+            <nav>
+              <ul>
+                 <a href="https://calendar.google.com/calendar/u/0/r/custom/5/d?pli=1" target="_blank"><img id="icones" src="Image/calendar.png" alt="Agenda"></a>
+                 <h1>Agenda</h1>
+              </ul>
+              <ul>
+                 <a href="https://mail.google.com/mail/u/0/#label/-Direcionado%2FCarlos+(oliveira%40)" target="_blank"><img id="icones" src="./Image/emails.png" alt="E-mails"></a>
+                 <h1>E-mails</h1>
+              </ul>
+              <ul>
+                   <a href="https://chat.openai.com/" target="_blank"><img id="icones" src="./Image/ai.png" alt="Chat GPT"></a>
+                   <h1>Chat GPT</h1>
+              </ul>
+              <ul>
+                  <a href="Preços-e-planos.html" target="_blank"><img id="icones" src="./Image/file.png" alt="Preços"></a>
+                  <h1>Preços</h1>
+              </ul>
+
+          </nav>
+         
+            <div id="popup" class="popup">
+                <div class="sub-btn">
+                    <button id="close-btn">&times;</button>
+                    <div class="estados">
+                        <a href="https://www.crecisp.gov.br/cidadao/buscaporcorretores" target="_blank"><Button>SP</Button></a>
+                        <a href="https://www.crecisc.conselho.net.br/form_pesquisa_cadastro_geral_site.php" target="_blank"><Button>SC</Button></a>
+                        <a href="http://www.creci-rs.gov.br/siteNovo/pesquisaInscrito.php" target="_blank"><Button>RS</Button></a>
+                        <a href="https://www.crecipr.gov.br/pesquisa-credenciados" target="_blank"><Button>PR</Button></a>
+                        <a href="https://crecimg.spiderware.com.br/spw/consultacadastral/TelaConsultaPublicaCompleta.aspx" target="_blank"><Button>MG</Button></a>
+                        <a href="https://www.creciba.conselho.net.br/form_pesquisa_cadastro_geral_site.php" target="_blank"><Button>BA</Button></a>
+                        <a href="https://servico.creci-rj.gov.br/spw/ConsultaCadastral/TelaConsultaPublicaCompleta.aspx" target="_blank"><Button>RJ</Button></a>
+                    </div>
+                </div>
+            </div> 
+
+      </div>
+
+      <div style="border-top: 2px solid var(--color-dark2); margin: 10px 0;"></div>
+    
+      <div class="pesquisas">
+        <div class="financeiro">
+          <main>
+            <h1 style="color: var(--color-dark3); font-family: Arial, Helvetica, sans-serif; text-align: center; margin-top: -8px; font-size: 25px;">Buscar Cliente no Financeiro</h1>
+              <div class="row justify-content-center mb-3">
+                 <form method="GET" action="https://financeiro.tecimob.com.br/imobiliarias" accept-charset="UTF-8" class="form-inline" target="_blank">
+                 <select class="form-control font-small" name="filterBy" style="font-size: 25px; color: rgb(87, 154, 231); text-align: center; background: none; border: none;"><option value="serial">Serial</option><option value="email">Email da imobiliaria</option><option value="name">Nome da imobiliaria</option></select>
+                 <input class="form-control ml-2 font-small" name="filter" type="text" style="font-size: 25px;">
+                 <input class="btn btn-outline-primary mx-2 btn-sm" type="submit" value="Pesquisar" style="font-size: 25px; cursor: pointer; background-color: rgb(17, 156, 236); border: none; border-radius: 8px; color: white; padding: 5px">
+                </form>
+              </div>
+        </div>
+  
+            <div class="registrobr">
+              <div>
+                <main>
+                   <h1 style="color: var(--color-dark3); font-family: Arial, Helvetica, sans-serif; text-align: center; margin-top: 25px; font-size: 25px;">Consultar Disponibilidade de Domínio</h1>
+                    <div class="row justify-content-center mb-3">
+                     <form method="GET" action="https://registro.br/busca-dominio/" accept-charset="UTF-8" class="form-inline" target="_blank" onsubmit="event.preventDefault(); searchDomain();">
+                       <input id="filterInput1" class="form-control ml-2 font-small" name="filter" type="text" style="font-size: 25px;">
+                       <input class="btn btn-outline-primary mx-2 btn-sm" type="submit" value="Pesquisar" style="font-size: 25px; cursor: pointer; background-color: rgb(17, 156, 236); border: none; border-radius: 8px; color: white; padding: 5px">
+                     </form>
+                </main>
+                    <script>
+                      function searchDomain() {
+                        const filterInput = document.getElementById('filterInput1');
+                        const filterValue = filterInput.value;
+                        const searchURL = `https://registro.br/busca-dominio/?fqdn=${filterValue}`;
+                        window.open(searchURL, '_blank');
+                      }
+                    </script>
+              </div>
+  
+              <div>
+                <main>
+                  <h1 style="color: var(--color-dark3); font-family: Arial, Helvetica, sans-serif; text-align: center; margin-top: 25px; font-size: 25px;">Pesquisar Whois</h1>
+                  <div class="row justify-content-center mb-3">
+                    <form method="GET" action="https://registro.br/tecnologia/ferramentas/whois/" accept-charset="UTF-8" class="form-inline" target="_blank" onsubmit="event.preventDefault(); searchWhois();">
+                      <input id="filterInput2" class="form-control ml-2 font-small" name="filter" type="text" style="font-size: 25px;">
+                      <input class="btn btn-outline-primary mx-2 btn-sm" type="submit" value="Pesquisar" style="font-size: 25px; cursor: pointer; background-color: rgb(17, 156, 236); border: none; border-radius: 8px; color: white; padding: 5px">
+                    </form>
+                  </div>
+                </main>
+  
+                <script>
+                  function searchWhois() {
+                    const filterInput = document.getElementById('filterInput2');
+                    const filterValue = filterInput.value;
+                    const searchURL = `https://registro.br/tecnologia/ferramentas/whois?search=${filterValue}`;
+                    window.open(searchURL, '_blank');
+                  }
+                </script> 
+              </div>
+            </div>      
+      </div>
+      
+      <script>
+        var header = document.getElementById('header');
+        var navigationheader = document.getElementById('navigation_header');
+        var content = document.getElementById('content');
+        var showSidebar = false;
+      
+        function toggleSidebar() {
+        showSidebar = !showSidebar;
+        if (showSidebar) {
+          navigationheader.style.marginLeft = '-10vw';
+          navigationheader.style.animation = 'animation-showSidebar 0.5s';
+      
+          content.style.filter = 'blur(2px)';
+        } else {
+          navigationheader.style.marginLeft = '-100vw';
+          navigationheader.style.animation = '';
+          content.style.filter = '';
+        }
+      }
+      
+        function closeSidebar() {
+          if (showSidebar) {
+            toggleSidebar();
+          }
+        }
+      
+        document.getElementById('content').addEventListener('click', closeSidebar);
+      
+        window.addEventListener('resize', function(event) {
+          if (window.innerWidth > 875 && showSidebar) {
+            toggleSidebar();
+          }
+        })
+      </script>
+
+<script>
+    var mainBtn = document.getElementById("main-btn");
+var popup = document.getElementById("popup");
+var closeBtn = document.getElementById("close-btn");
+
+mainBtn.addEventListener("click", function() {
+popup.style.display = "block";
+});
+
+closeBtn.addEventListener("click", function() {
+popup.style.display = "none";
+});
+
+</script>
+<script>
+   const closeButton = document.querySelector('.close-btn');
+   const popup = document.querySelector('.popup');
+   closeButton.addEventListener('click', function() {
+ popup.classList.remove('show');
+});
+</script>
+    
+</body>
+</html>
