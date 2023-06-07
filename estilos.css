@@ -45,6 +45,7 @@
     color: var(--color-dark1);
     transition: 0.5s;
     font-weight: bold;
+    font-size: 25px;
   }
 
   .header {
